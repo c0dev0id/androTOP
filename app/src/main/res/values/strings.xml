@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">androTOP</string>
+    <string name="notification_channel_name">Process Monitor</string>
+    <string name="notification_channel_desc">Shows the top CPU-consuming process</string>
+    <string name="sort_cpu">Sort: CPU</string>
+    <string name="sort_mem">Sort: MEM</string>
+    <string name="refresh">Refresh</string>
+    <string name="start_monitoring">Start</string>
+    <string name="stop_monitoring">Stop</string>
+    <string name="shizuku_not_available">Shizuku is not running. Install and start Shizuku for full process monitoring.</string>
+    <string name="shizuku_permission_needed">Shizuku permission required. Tap to grant.</string>
+    <string name="overlay_permission_needed">Overlay permission required for floating display.</string>
+    <string name="waiting_for_data">Waiting for data…</string>
+    <string name="system_info_label">System Information</string>
+    <string name="cpu_cores_label">CPU Cores</string>
+    <string name="memory_label">Memory</string>
+    <string name="swap_label">Swap</string>
+    <string name="header_pid">PID</string>
+    <string name="header_name">PROCESS</string>
+    <string name="header_cpu">CPU%</string>
+    <string name="header_mem">MEM%</string>
+</resources>

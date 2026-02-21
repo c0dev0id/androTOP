@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="4dp">
+
+    <TextView
+        android:id="@+id/pidText"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_secondary"
+        android:textSize="11sp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/on_surface"
+        android:textSize="11sp"
+        android:fontFamily="monospace"
+        android:singleLine="true"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/cpuText"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:fontFamily="monospace"
+        android:gravity="end" />
+
+    <TextView
+        android:id="@+id/memText"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/on_surface"
+        android:textSize="11sp"
+        android:fontFamily="monospace"
+        android:gravity="end" />
+
+</LinearLayout>
