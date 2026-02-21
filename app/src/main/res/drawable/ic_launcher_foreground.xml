@@ -6,11 +6,10 @@
     android:viewportHeight="108">
     <!-- Terminal-style icon with ">" prompt -->
     <path
-        android:fillColor="#FF4CAF50"
+        android:fillColor="#00000000"
         android:pathData="M30,34 L54,54 L30,74"
         android:strokeWidth="6"
-        android:strokeColor="#FF4CAF50"
-        android:fillColor="#00000000" />
+        android:strokeColor="#FF4CAF50" />
     <path
         android:fillColor="#FF4CAF50"
         android:pathData="M58,70 L78,70"
