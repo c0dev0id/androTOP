@@ -20,4 +20,3 @@ gen/
 out/
 .navigation/
 *.hprof
-gradle-wrapper.jar
